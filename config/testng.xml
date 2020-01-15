@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataMigrationUtility">
+	<listeners>
+		<!-- <listener class-name="com.restassuredtestng.listeners.ExtentListeners" /> -->
+		<listener class-name="com.restassuredtestng.listeners.LogListeners" />
+	</listeners>
+	<test name="ImportODX">
+		<classes>
+			<class name="com.restassuredtestng.vehicle.CreateVehicleTest" />
+			<class name="com.restassuredtestng.ecufamily.CreateEcuFamilyTest" />
+			<class name="com.restassuredtestng.componenttemplate.CreateComponentTemplateTest" />
+			<class name="com.restassuredtestng.linkbvtovehicle.LinkBVToLeadVehicleTest" />
+			<class name="com.restassuredtestng.linkbvtovehicle.LinkBVToVehicleTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
